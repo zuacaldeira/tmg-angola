@@ -1,0 +1,27 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+ul.images
+{
+    width: 170px;
+    height: 75px;
+    background: white;
+    position: relative;
+    overflow: hidden;
+}
+
+ul.images li
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    list-style: none;
+}
+
+ul.images li.show
+{
+    z-index: 500;
+}
